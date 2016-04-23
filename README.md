@@ -5,6 +5,7 @@ Sample code for big data problems using Apache Spark (Python)
 1. Python 2.7.x
 2. [Apache Spark](http://spark.apache.org/)
 3. `winutils.exe` (If you are running on Windows)
+4. [Enthought Canopy](https://www.enthought.com/products/canopy/)
 
 ## Setup for Windows
 Check the details [here](http://nishutayaltech.blogspot.co.id/2015/04/how-to-run-apache-spark-on-windows7-in.html).
