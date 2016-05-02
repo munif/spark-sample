@@ -7,7 +7,7 @@ def println(x):
 
 # Function for transforming the tweet
 def transformTweets(line):
-    # Data sample: "1, aku suka kamu". Splitted to data[0] = 1, data[2] = "aku suka kamu"
+    # Data sample: "1, aku suka kamu". Splitted to data[0] = 1, data[1] = "aku suka kamu"
     data = line.split(",")
     id = data[0]
     tweet = data[1]
