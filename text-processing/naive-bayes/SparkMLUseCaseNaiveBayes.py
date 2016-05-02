@@ -61,6 +61,6 @@ nbModel=pipeline.fit(trainingData)
 
 prediction=nbModel.transform(testData)
 
-prediction.where(prediction.prediction == 1.0).show()
+#prediction.where(prediction.prediction == 1.0).show()
 
-#prediction.groupBy("label","prediction").count().show()
+prediction.groupBy("label","prediction").count().show()
