@@ -36,4 +36,4 @@
 
   > **Catatan**
   
-  > Apabila ada warning `Block input .. replicated .. instead of 1 instances..` abaikan saja. Itu disebabkan karena Spark berjalan hanya di satu komputer.
+  > Apabila ada warning `Block input .. replicated .. instead of 1 peers` abaikan saja. Itu disebabkan karena Spark berjalan hanya di satu komputer.
